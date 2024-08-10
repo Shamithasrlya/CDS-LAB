@@ -1,6 +1,6 @@
 # LINEAR SEARCH MAIN FLOWCHART
 
-![Linear search flowchart drawio](https://github.com/user-attachments/assets/a53cff32-7d2f-469f-bc80-adea21f31db9)
+![Linear search flowchart drawio](https://github.com/user-attachments/assets/2b8efcbd-4b09-4bf3-8c39-3c70200eabfb)
 
 # linear_search FUNCTION FLOWCHART
 
