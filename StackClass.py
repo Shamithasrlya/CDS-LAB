@@ -15,7 +15,7 @@ class Stack:
         """ Adds item to a stack"""
         if len(self.stack) < self.max_range:
             self.stack.append(item)
-            print(f"{item} pushed to stack.")
+            print(f"'{item}' pushed to stack.")
 
         else:
             print("Stack overflow.")
@@ -24,7 +24,7 @@ class Stack:
         """ Removes the last/bottom item of the stack"""
         if self.stack:
             removed_item = self.stack.pop()
-            print(f"Item {removed_item} popped from stack.")
+            print(f"Item '{removed_item}' popped from stack.")
             return removed_item #Displays the item removed
         else:
             print("Stack is empty. Cannot pop item.") # If the stack is empty, prints the given message.
