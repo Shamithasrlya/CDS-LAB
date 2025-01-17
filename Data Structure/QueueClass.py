@@ -57,7 +57,7 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == "1": #Push/Append item
-                item = my_queue.input_1("Enter the item: ")
+                item = my_queue.input_1("Enter the item to be added: ")
                 my_queue.enqueue(item)
                 my_queue.display()
 
@@ -70,7 +70,7 @@ def main():
             break
 
         else:
-            print("Enter a number between 1 and 3.")
+            print("Please enter a number from the given options.")
             
 if __name__ == "__main__":
     main()
